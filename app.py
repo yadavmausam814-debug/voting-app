@@ -1,6 +1,5 @@
 
 from flask import Flask, render_template_string, request, redirect, session, url_for
-from flask_cloudflared import run_with_cloudflared
 
 app = Flask(__name__)
 app.secret_key = "voting_secret_123"
